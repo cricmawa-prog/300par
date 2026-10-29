@@ -8,6 +8,8 @@ import { subscribeToMyInvites } from '../lib/tournament/client';
 import WaitlistForm from '../components/Access/WaitlistForm';
 import AccessPending from '../components/Access/AccessPending';
 import Spinner from '../components/Duel/Spinner';
+import { GoogleButton, Divider } from '../components/Auth/AuthParts';
+import { friendlyAuthError, signInWithGoogle } from '../lib/auth/actions';
 
 function Hero({ children }) {
     return (
@@ -49,6 +51,41 @@ function MemberHome({ uid, isAdmin }) {
     );
 }
 
+// Signed out: approved players sign straight in with Google; everyone else joins the waitlist.
+// (A Google account that isn't approved yet lands on the "request access" screen after signing in.)
+function SignedOutHome() {
+    const [busy, setBusy] = useState(false);
+    const [error, setError] = useState(null);
+
+    async function google() {
+        setBusy(true);
+        setError(null);
+        try {
+            await signInWithGoogle();
+        } catch (err) {
+            setError(friendlyAuthError(err));
+        } finally {
+            setBusy(false);
+        }
+    }
+
+    return (
+        <div className="w-full max-w-sm flex flex-col gap-4 mt-4">
+            <div className="bg-surface border border-border rounded-xl p-5 flex flex-col gap-3">
+                <p className="font-display text-text">Already approved?</p>
+                <GoogleButton onClick={google} disabled={busy} label={busy ? 'Signing in…' : 'Continue with Google'} />
+                <Link href="/signin" className="text-xs text-textMuted underline">Use email and password instead</Link>
+                {error && <p className="text-xs text-loss">{error}</p>}
+            </div>
+            <Divider>new here?</Divider>
+            <div className="bg-surface border border-border rounded-xl p-5 flex flex-col gap-3">
+                <p className="font-display text-text">Private beta - join the waitlist</p>
+                <WaitlistForm />
+            </div>
+        </div>
+    );
+}
+
 export default function Home() {
     const { isLoaded, isSignedIn, user, member, isAdmin } = useUser();
 
@@ -67,18 +104,7 @@ export default function Home() {
                 {isSignedIn ? (
                     <MemberHome uid={user.id} isAdmin={isAdmin} />
                 ) : (
-                    <div className="w-full max-w-sm flex flex-col gap-4 mt-4">
-                        <div className="bg-surface border border-border rounded-xl p-5 flex flex-col gap-3">
-                            <p className="font-display text-text">Private beta - join the waitlist</p>
-                            <WaitlistForm />
-                        </div>
-                        <p className="text-sm text-textMuted">
-                            Already approved?{' '}
-                            <Link href="/signin" className="text-accent underline">
-                                Sign in
-                            </Link>
-                        </p>
-                    </div>
+                    <SignedOutHome />
                 )}
             </Hero>
         </div>
