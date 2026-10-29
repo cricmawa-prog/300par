@@ -1,0 +1,5367 @@
+{
+  "2008": [
+    {
+      "name": "Albie Morkel",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 60,
+      "POW": 84,
+      "BWL": 65
+    },
+    {
+      "name": "Michael Hussey",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 91,
+      "POW": 84,
+      "BWL": 0
+    },
+    {
+      "name": "Matthew Hayden",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2
+      ],
+      "BAT": 92,
+      "POW": 80,
+      "BWL": 0
+    },
+    {
+      "name": "Manpreet Gony",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 43,
+      "POW": 47,
+      "BWL": 70
+    },
+    {
+      "name": "Suresh Raina",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 65,
+      "POW": 79,
+      "BWL": 10
+    },
+    {
+      "name": "Subramaniam Badrinath",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 57,
+      "POW": 84,
+      "BWL": 0
+    },
+    {
+      "name": "MS Dhoni",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 68,
+      "POW": 67,
+      "BWL": 0
+    },
+    {
+      "name": "Makhaya Ntini",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 36,
+      "BWL": 51
+    },
+    {
+      "name": "Vidyut Sivaramakrishnan",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 41,
+      "POW": 66,
+      "BWL": 10
+    },
+    {
+      "name": "Joginder Sharma",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 42,
+      "BWL": 40
+    },
+    {
+      "name": "Jacob Oram",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 36,
+      "POW": 43,
+      "BWL": 25
+    },
+    {
+      "name": "Stephen Fleming",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 45,
+      "POW": 53,
+      "BWL": 0
+    },
+    {
+      "name": "Muttiah Muralitharan",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Sri Lanka",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 24,
+      "POW": 15,
+      "BWL": 55
+    },
+    {
+      "name": "Lakshmipathy Balaji",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 24,
+      "POW": 15,
+      "BWL": 55
+    },
+    {
+      "name": "Parthiv Patel",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "BAT": 52,
+      "POW": 38,
+      "BWL": 0
+    },
+    {
+      "name": "Chamara Kapugedera",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Sri Lanka",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 34,
+      "POW": 36,
+      "BWL": 8
+    },
+    {
+      "name": "Anirudha Srikkanth",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 35,
+      "POW": 36,
+      "BWL": 0
+    },
+    {
+      "name": "Palani Amarnath",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 31
+    },
+    {
+      "name": "Abhinav Mukund",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2
+      ],
+      "BAT": 24,
+      "POW": 15,
+      "BWL": 0
+    }
+  ],
+  "2009": [
+    {
+      "name": "Suresh Raina",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 56,
+      "POW": 77,
+      "BWL": 66
+    },
+    {
+      "name": "Matthew Hayden",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2
+      ],
+      "BAT": 82,
+      "POW": 84,
+      "BWL": 0
+    },
+    {
+      "name": "Muttiah Muralitharan",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Sri Lanka",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 36,
+      "POW": 36,
+      "BWL": 94
+    },
+    {
+      "name": "Albie Morkel",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 45,
+      "POW": 60,
+      "BWL": 60
+    },
+    {
+      "name": "Shadab Jakati",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 36,
+      "POW": 42,
+      "BWL": 78
+    },
+    {
+      "name": "Thilan Thushara",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Sri Lanka",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 37,
+      "BWL": 60
+    },
+    {
+      "name": "MS Dhoni",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 68,
+      "POW": 60,
+      "BWL": 0
+    },
+    {
+      "name": "Lakshmipathy Balaji",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 36,
+      "POW": 31,
+      "BWL": 59
+    },
+    {
+      "name": "Jacob Oram",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 37,
+      "POW": 31,
+      "BWL": 49
+    },
+    {
+      "name": "Manpreet Gony",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 43,
+      "BWL": 34
+    },
+    {
+      "name": "Andrew Flintoff",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "England",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 43,
+      "POW": 44,
+      "BWL": 12
+    },
+    {
+      "name": "Sudeep Tyagi",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 24,
+      "POW": 15,
+      "BWL": 56
+    },
+    {
+      "name": "Joginder Sharma",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 36,
+      "POW": 41,
+      "BWL": 12
+    },
+    {
+      "name": "Subramaniam Badrinath",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 43,
+      "POW": 43,
+      "BWL": 0
+    },
+    {
+      "name": "Parthiv Patel",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "BAT": 38,
+      "POW": 47,
+      "BWL": 0
+    },
+    {
+      "name": "Ravichandran Ashwin",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 36,
+      "BWL": 12
+    },
+    {
+      "name": "George Bailey",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 38,
+      "POW": 43,
+      "BWL": 0
+    },
+    {
+      "name": "Murali Vijay",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 37,
+      "POW": 30,
+      "BWL": 0
+    }
+  ],
+  "2010": [
+    {
+      "name": "Suresh Raina",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 76,
+      "POW": 81,
+      "BWL": 52
+    },
+    {
+      "name": "Albie Morkel",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 48,
+      "POW": 88,
+      "BWL": 41
+    },
+    {
+      "name": "Doug Bollinger",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 36,
+      "POW": 40,
+      "BWL": 85
+    },
+    {
+      "name": "Murali Vijay",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 61,
+      "POW": 98,
+      "BWL": 0
+    },
+    {
+      "name": "Muttiah Muralitharan",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Sri Lanka",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 39,
+      "BWL": 81
+    },
+    {
+      "name": "Ravichandran Ashwin",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 34,
+      "POW": 27,
+      "BWL": 83
+    },
+    {
+      "name": "Justin Kemp",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 35,
+      "POW": 41,
+      "BWL": 63
+    },
+    {
+      "name": "Thilan Thushara",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Sri Lanka",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 39,
+      "BWL": 63
+    },
+    {
+      "name": "MS Dhoni",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 57,
+      "POW": 70,
+      "BWL": 0
+    },
+    {
+      "name": "Lakshmipathy Balaji",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 39,
+      "BWL": 45
+    },
+    {
+      "name": "Subramaniam Badrinath",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 57,
+      "POW": 52,
+      "BWL": 0
+    },
+    {
+      "name": "Shadab Jakati",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 24,
+      "POW": 15,
+      "BWL": 69
+    },
+    {
+      "name": "Matthew Hayden",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2
+      ],
+      "BAT": 45,
+      "POW": 58,
+      "BWL": 0
+    },
+    {
+      "name": "Anirudha Srikkanth",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 38,
+      "POW": 46,
+      "BWL": 0
+    },
+    {
+      "name": "Sudeep Tyagi",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 39,
+      "BWL": 10
+    },
+    {
+      "name": "Manpreet Gony",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 37,
+      "BWL": 10
+    },
+    {
+      "name": "Arun Karthik",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 35,
+      "POW": 39,
+      "BWL": 0
+    },
+    {
+      "name": "Michael Hussey",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 37,
+      "POW": 36,
+      "BWL": 0
+    },
+    {
+      "name": "George Bailey",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 36,
+      "POW": 35,
+      "BWL": 0
+    },
+    {
+      "name": "Parthiv Patel",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "BAT": 40,
+      "POW": 30,
+      "BWL": 0
+    },
+    {
+      "name": "Joginder Sharma",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 12
+    },
+    {
+      "name": "Thisara Perera",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Sri Lanka",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 8
+    },
+    {
+      "name": "Chandrasekar Ganapathy",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        7,
+        8
+      ],
+      "BAT": 24,
+      "POW": 15,
+      "BWL": 8
+    }
+  ],
+  "2011": [
+    {
+      "name": "Albie Morkel",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 46,
+      "POW": 68,
+      "BWL": 61
+    },
+    {
+      "name": "MS Dhoni",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 70,
+      "POW": 98,
+      "BWL": 0
+    },
+    {
+      "name": "Ravichandran Ashwin",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 37,
+      "BWL": 91
+    },
+    {
+      "name": "Suresh Raina",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 57,
+      "POW": 69,
+      "BWL": 36
+    },
+    {
+      "name": "Subramaniam Badrinath",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 85,
+      "POW": 61,
+      "BWL": 0
+    },
+    {
+      "name": "Dwayne Bravo",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Trinidad and Tobago",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 35,
+      "POW": 42,
+      "BWL": 53
+    },
+    {
+      "name": "Michael Hussey",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 68,
+      "POW": 55,
+      "BWL": 0
+    },
+    {
+      "name": "Doug Bollinger",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 24,
+      "POW": 15,
+      "BWL": 83
+    },
+    {
+      "name": "Suraj Randiv",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Sri Lanka",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 39,
+      "BWL": 45
+    },
+    {
+      "name": "Murali Vijay",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 52,
+      "POW": 63,
+      "BWL": 0
+    },
+    {
+      "name": "Wriddhiman Saha",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "BAT": 63,
+      "POW": 42,
+      "BWL": 0
+    },
+    {
+      "name": "Shadab Jakati",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 24,
+      "POW": 15,
+      "BWL": 54
+    },
+    {
+      "name": "Anirudha Srikkanth",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 42,
+      "POW": 44,
+      "BWL": 0
+    },
+    {
+      "name": "Scott Styris",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 36,
+      "POW": 41,
+      "BWL": 8
+    },
+    {
+      "name": "Tim Southee",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 35
+    },
+    {
+      "name": "Nuwan Kulasekara",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Sri Lanka",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 10
+    },
+    {
+      "name": "Joginder Sharma",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 24,
+      "POW": 15,
+      "BWL": 8
+    }
+  ],
+  "2012": [
+    {
+      "name": "Dwayne Bravo",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Trinidad and Tobago",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 74,
+      "POW": 75,
+      "BWL": 58
+    },
+    {
+      "name": "Albie Morkel",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 37,
+      "POW": 73,
+      "BWL": 58
+    },
+    {
+      "name": "Ravindra Jadeja",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 38,
+      "POW": 60,
+      "BWL": 67
+    },
+    {
+      "name": "Ravichandran Ashwin",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 36,
+      "POW": 39,
+      "BWL": 67
+    },
+    {
+      "name": "Nuwan Kulasekara",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Sri Lanka",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 41,
+      "BWL": 61
+    },
+    {
+      "name": "Doug Bollinger",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 39,
+      "BWL": 63
+    },
+    {
+      "name": "Suresh Raina",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 51,
+      "POW": 70,
+      "BWL": 12
+    },
+    {
+      "name": "Faf du Plessis",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 59,
+      "POW": 65,
+      "BWL": 8
+    },
+    {
+      "name": "Ben Hilfenhaus",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 84
+    },
+    {
+      "name": "MS Dhoni",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 54,
+      "POW": 62,
+      "BWL": 0
+    },
+    {
+      "name": "Shadab Jakati",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 37,
+      "BWL": 43
+    },
+    {
+      "name": "Murali Vijay",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 50,
+      "POW": 59,
+      "BWL": 0
+    },
+    {
+      "name": "Michael Hussey",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 58,
+      "POW": 46,
+      "BWL": 0
+    },
+    {
+      "name": "Subramaniam Badrinath",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 52,
+      "POW": 43,
+      "BWL": 0
+    },
+    {
+      "name": "Yo Mahesh",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 48
+    },
+    {
+      "name": "Anirudha Srikkanth",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 36,
+      "POW": 46,
+      "BWL": 0
+    },
+    {
+      "name": "Wriddhiman Saha",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "BAT": 35,
+      "POW": 35,
+      "BWL": 0
+    }
+  ],
+  "2013": [
+    {
+      "name": "Ravindra Jadeja",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 49,
+      "POW": 86,
+      "BWL": 67
+    },
+    {
+      "name": "Suresh Raina",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 70,
+      "POW": 90,
+      "BWL": 10
+    },
+    {
+      "name": "MS Dhoni",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 69,
+      "POW": 98,
+      "BWL": 0
+    },
+    {
+      "name": "Dwayne Bravo",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Trinidad and Tobago",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 37,
+      "POW": 49,
+      "BWL": 80
+    },
+    {
+      "name": "Michael Hussey",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 83,
+      "POW": 69,
+      "BWL": 0
+    },
+    {
+      "name": "Albie Morkel",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 36,
+      "POW": 44,
+      "BWL": 63
+    },
+    {
+      "name": "Ravichandran Ashwin",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 34,
+      "POW": 23,
+      "BWL": 76
+    },
+    {
+      "name": "Chris Morris",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 36,
+      "POW": 34,
+      "BWL": 63
+    },
+    {
+      "name": "Mohit Sharma",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 24,
+      "POW": 15,
+      "BWL": 92
+    },
+    {
+      "name": "Murali Vijay",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 46,
+      "POW": 44,
+      "BWL": 0
+    },
+    {
+      "name": "Wriddhiman Saha",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "BAT": 39,
+      "POW": 47,
+      "BWL": 0
+    },
+    {
+      "name": "Ben Laughlin",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 37,
+      "BWL": 10
+    },
+    {
+      "name": "Ankit Rajpoot",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 37,
+      "BWL": 10
+    },
+    {
+      "name": "Dirk Nannes",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 24,
+      "POW": 15,
+      "BWL": 41
+    },
+    {
+      "name": "Subramaniam Badrinath",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 40,
+      "POW": 38,
+      "BWL": 0
+    },
+    {
+      "name": "Jason Holder",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "West Indies",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 12
+    },
+    {
+      "name": "Anirudha Srikkanth",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 24,
+      "POW": 15,
+      "BWL": 0
+    }
+  ],
+  "2014": [
+    {
+      "name": "Ravindra Jadeja",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 54,
+      "POW": 65,
+      "BWL": 67
+    },
+    {
+      "name": "MS Dhoni",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 96,
+      "POW": 85,
+      "BWL": 0
+    },
+    {
+      "name": "Dwayne Smith",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Barbados",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2
+      ],
+      "BAT": 62,
+      "POW": 72,
+      "BWL": 46
+    },
+    {
+      "name": "Suresh Raina",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 68,
+      "POW": 84,
+      "BWL": 10
+    },
+    {
+      "name": "David Hussey",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 84,
+      "POW": 56,
+      "BWL": 12
+    },
+    {
+      "name": "Mohit Sharma",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 39,
+      "BWL": 70
+    },
+    {
+      "name": "Ravichandran Ashwin",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 37,
+      "POW": 36,
+      "BWL": 69
+    },
+    {
+      "name": "Faf du Plessis",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 52,
+      "POW": 62,
+      "BWL": 0
+    },
+    {
+      "name": "Brendon McCullum",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": true,
+      "slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "BAT": 56,
+      "POW": 56,
+      "BWL": 0
+    },
+    {
+      "name": "Ashish Nehra",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 59
+    },
+    {
+      "name": "Ben Hilfenhaus",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 24,
+      "POW": 15,
+      "BWL": 47
+    },
+    {
+      "name": "Mithun Manhas",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 38,
+      "POW": 47,
+      "BWL": 0
+    },
+    {
+      "name": "Dwayne Bravo",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Trinidad and Tobago",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 36,
+      "POW": 42,
+      "BWL": 0
+    },
+    {
+      "name": "Ishwar Pandey",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 35
+    },
+    {
+      "name": "Samuel Badree",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Trinidad and Tobago",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 12
+    },
+    {
+      "name": "John Hastings",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 10
+    },
+    {
+      "name": "Pawan Negi",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 8
+    },
+    {
+      "name": "Vijay Shankar",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 8
+    }
+  ],
+  "2015": [
+    {
+      "name": "Dwayne Bravo",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Trinidad and Tobago",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 45,
+      "POW": 65,
+      "BWL": 77
+    },
+    {
+      "name": "Ravichandran Ashwin",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 38,
+      "POW": 54,
+      "BWL": 85
+    },
+    {
+      "name": "Brendon McCullum",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": true,
+      "slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "BAT": 59,
+      "POW": 96,
+      "BWL": 0
+    },
+    {
+      "name": "Pawan Negi",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 37,
+      "POW": 78,
+      "BWL": 37
+    },
+    {
+      "name": "Ashish Nehra",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 36,
+      "POW": 31,
+      "BWL": 79
+    },
+    {
+      "name": "Ravindra Jadeja",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 42,
+      "POW": 40,
+      "BWL": 58
+    },
+    {
+      "name": "Mohit Sharma",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 36,
+      "POW": 45,
+      "BWL": 45
+    },
+    {
+      "name": "Suresh Raina",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 49,
+      "POW": 57,
+      "BWL": 12
+    },
+    {
+      "name": "Ishwar Pandey",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 76
+    },
+    {
+      "name": "Dwayne Smith",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Barbados",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2
+      ],
+      "BAT": 49,
+      "POW": 54,
+      "BWL": 10
+    },
+    {
+      "name": "Faf du Plessis",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 54,
+      "POW": 59,
+      "BWL": 0
+    },
+    {
+      "name": "MS Dhoni",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 56,
+      "POW": 56,
+      "BWL": 0
+    },
+    {
+      "name": "Ronit More",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 35,
+      "POW": 40,
+      "BWL": 10
+    },
+    {
+      "name": "Michael Hussey",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 41,
+      "POW": 42,
+      "BWL": 0
+    }
+  ],
+  "2018": [
+    {
+      "name": "Shane Watson",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2
+      ],
+      "BAT": 67,
+      "POW": 96,
+      "BWL": 34
+    },
+    {
+      "name": "MS Dhoni",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 96,
+      "POW": 90,
+      "BWL": 0
+    },
+    {
+      "name": "Dwayne Bravo",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Trinidad and Tobago",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 58,
+      "POW": 87,
+      "BWL": 26
+    },
+    {
+      "name": "Ambati Rayudu",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 72,
+      "POW": 91,
+      "BWL": 0
+    },
+    {
+      "name": "Deepak Chahar",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 38,
+      "POW": 55,
+      "BWL": 65
+    },
+    {
+      "name": "Ravindra Jadeja",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 40,
+      "POW": 49,
+      "BWL": 64
+    },
+    {
+      "name": "Lungi Ngidi",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 95
+    },
+    {
+      "name": "Shardul Thakur",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 36,
+      "POW": 45,
+      "BWL": 52
+    },
+    {
+      "name": "Suresh Raina",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 63,
+      "POW": 67,
+      "BWL": 0
+    },
+    {
+      "name": "Imran Tahir",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 40,
+      "BWL": 42
+    },
+    {
+      "name": "Faf du Plessis",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 57,
+      "POW": 59,
+      "BWL": 0
+    },
+    {
+      "name": "Harbhajan Singh",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 34,
+      "POW": 36,
+      "BWL": 39
+    },
+    {
+      "name": "Sam Billings",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "England",
+      "isKeeper": true,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 36,
+      "POW": 63,
+      "BWL": 0
+    },
+    {
+      "name": "Karn Sharma",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 24,
+      "POW": 15,
+      "BWL": 48
+    },
+    {
+      "name": "Mark Wood",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "England",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 39,
+      "BWL": 8
+    },
+    {
+      "name": "Kedar Jadhav",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 37,
+      "POW": 41,
+      "BWL": 0
+    },
+    {
+      "name": "KM Asif",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 37
+    },
+    {
+      "name": "Murali Vijay",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 35,
+      "POW": 41,
+      "BWL": 0
+    },
+    {
+      "name": "Dhruv Shorey",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 35,
+      "POW": 39,
+      "BWL": 0
+    },
+    {
+      "name": "David Willey",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "England",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 12
+    }
+  ],
+  "2019": [
+    {
+      "name": "Ravindra Jadeja",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 58,
+      "POW": 52,
+      "BWL": 84
+    },
+    {
+      "name": "MS Dhoni",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 96,
+      "POW": 68,
+      "BWL": 0
+    },
+    {
+      "name": "Harbhajan Singh",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 39,
+      "BWL": 82
+    },
+    {
+      "name": "Deepak Chahar",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 39,
+      "BWL": 75
+    },
+    {
+      "name": "Mitchell Santner",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 39,
+      "POW": 44,
+      "BWL": 61
+    },
+    {
+      "name": "Dwayne Bravo",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Trinidad and Tobago",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 38,
+      "POW": 49,
+      "BWL": 55
+    },
+    {
+      "name": "Imran Tahir",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 24,
+      "POW": 15,
+      "BWL": 90
+    },
+    {
+      "name": "Faf du Plessis",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 62,
+      "POW": 58,
+      "BWL": 0
+    },
+    {
+      "name": "Shardul Thakur",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 43,
+      "BWL": 35
+    },
+    {
+      "name": "Suresh Raina",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 48,
+      "POW": 56,
+      "BWL": 8
+    },
+    {
+      "name": "Shane Watson",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2
+      ],
+      "BAT": 47,
+      "POW": 62,
+      "BWL": 0
+    },
+    {
+      "name": "Murali Vijay",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 44,
+      "POW": 41,
+      "BWL": 0
+    },
+    {
+      "name": "Ambati Rayudu",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 47,
+      "POW": 30,
+      "BWL": 0
+    },
+    {
+      "name": "Kedar Jadhav",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 41,
+      "POW": 32,
+      "BWL": 0
+    },
+    {
+      "name": "Dhruv Shorey",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 35,
+      "POW": 38,
+      "BWL": 0
+    },
+    {
+      "name": "Scott Kuggeleijn",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 12
+    },
+    {
+      "name": "Karn Sharma",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 10
+    },
+    {
+      "name": "Mohit Sharma",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 24,
+      "POW": 15,
+      "BWL": 10
+    },
+    {
+      "name": "Sam Billings",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "England",
+      "isKeeper": true,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 24,
+      "POW": 15,
+      "BWL": 0
+    }
+  ],
+  "2020": [
+    {
+      "name": "Ravindra Jadeja",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 73,
+      "POW": 98,
+      "BWL": 28
+    },
+    {
+      "name": "Sam Curran",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "England",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 47,
+      "POW": 65,
+      "BWL": 58
+    },
+    {
+      "name": "Faf du Plessis",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 68,
+      "POW": 77,
+      "BWL": 0
+    },
+    {
+      "name": "Ruturaj Gaikwad",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 79,
+      "POW": 55,
+      "BWL": 0
+    },
+    {
+      "name": "Ambati Rayudu",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 66,
+      "POW": 61,
+      "BWL": 0
+    },
+    {
+      "name": "Deepak Chahar",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 37,
+      "BWL": 54
+    },
+    {
+      "name": "Shardul Thakur",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 35,
+      "BWL": 54
+    },
+    {
+      "name": "Dwayne Bravo",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Trinidad and Tobago",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 35,
+      "POW": 40,
+      "BWL": 46
+    },
+    {
+      "name": "Shane Watson",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2
+      ],
+      "BAT": 54,
+      "POW": 55,
+      "BWL": 0
+    },
+    {
+      "name": "MS Dhoni",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 49,
+      "POW": 51,
+      "BWL": 0
+    },
+    {
+      "name": "Lungi Ngidi",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 49
+    },
+    {
+      "name": "Imran Tahir",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 36,
+      "POW": 41,
+      "BWL": 10
+    },
+    {
+      "name": "Karn Sharma",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 43
+    },
+    {
+      "name": "Piyush Chawla",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 42
+    },
+    {
+      "name": "Narayan Jagadeesan",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 36,
+      "POW": 42,
+      "BWL": 0
+    },
+    {
+      "name": "Kedar Jadhav",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 42,
+      "POW": 32,
+      "BWL": 0
+    },
+    {
+      "name": "Murali Vijay",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 34,
+      "POW": 34,
+      "BWL": 0
+    },
+    {
+      "name": "Mitchell Santner",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 12
+    },
+    {
+      "name": "Josh Hazlewood",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 10
+    },
+    {
+      "name": "Monu Kumar",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 8
+    }
+  ],
+  "2021": [
+    {
+      "name": "Ravindra Jadeja",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 96,
+      "POW": 81,
+      "BWL": 68
+    },
+    {
+      "name": "Moeen Ali",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "England",
+      "isKeeper": false,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 49,
+      "POW": 71,
+      "BWL": 61
+    },
+    {
+      "name": "Dwayne Bravo",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "West Indies",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 40,
+      "POW": 55,
+      "BWL": 72
+    },
+    {
+      "name": "Faf du Plessis",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 74,
+      "POW": 76,
+      "BWL": 0
+    },
+    {
+      "name": "Ruturaj Gaikwad",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 75,
+      "POW": 74,
+      "BWL": 0
+    },
+    {
+      "name": "Ambati Rayudu",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 53,
+      "POW": 89,
+      "BWL": 0
+    },
+    {
+      "name": "Shardul Thakur",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 37,
+      "POW": 36,
+      "BWL": 58
+    },
+    {
+      "name": "Sam Curran",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "England",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 38,
+      "POW": 60,
+      "BWL": 28
+    },
+    {
+      "name": "Deepak Chahar",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 36,
+      "POW": 40,
+      "BWL": 49
+    },
+    {
+      "name": "Robin Uthappa",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "BAT": 51,
+      "POW": 64,
+      "BWL": 0
+    },
+    {
+      "name": "Suresh Raina",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 40,
+      "POW": 59,
+      "BWL": 0
+    },
+    {
+      "name": "Josh Hazlewood",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 56
+    },
+    {
+      "name": "MS Dhoni",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 39,
+      "POW": 42,
+      "BWL": 0
+    },
+    {
+      "name": "Lungi Ngidi",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 40
+    },
+    {
+      "name": "Imran Tahir",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 12
+    },
+    {
+      "name": "KM Asif",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 10
+    }
+  ],
+  "2022": [
+    {
+      "name": "Moeen Ali",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "England",
+      "isKeeper": false,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 48,
+      "POW": 71,
+      "BWL": 82
+    },
+    {
+      "name": "Shivam Dube",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        5,
+        6,
+        7
+      ],
+      "BAT": 53,
+      "POW": 95,
+      "BWL": 8
+    },
+    {
+      "name": "Devon Conway",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": true,
+      "slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "BAT": 68,
+      "POW": 81,
+      "BWL": 0
+    },
+    {
+      "name": "Maheesh Theekshana",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Sri Lanka",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 40,
+      "BWL": 71
+    },
+    {
+      "name": "Dwayne Bravo",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Trinidad and Tobago",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 36,
+      "POW": 35,
+      "BWL": 68
+    },
+    {
+      "name": "Ravindra Jadeja",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 42,
+      "POW": 52,
+      "BWL": 35
+    },
+    {
+      "name": "Mukesh Choudhary",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 40,
+      "BWL": 52
+    },
+    {
+      "name": "Simarjeet Singh",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 39,
+      "BWL": 47
+    },
+    {
+      "name": "Dwaine Pretorius",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 36,
+      "POW": 50,
+      "BWL": 34
+    },
+    {
+      "name": "Mitchell Santner",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 36,
+      "POW": 31,
+      "BWL": 53
+    },
+    {
+      "name": "MS Dhoni",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 58,
+      "POW": 57,
+      "BWL": 0
+    },
+    {
+      "name": "Robin Uthappa",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "BAT": 44,
+      "POW": 67,
+      "BWL": 0
+    },
+    {
+      "name": "Ruturaj Gaikwad",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 50,
+      "POW": 60,
+      "BWL": 0
+    },
+    {
+      "name": "Ambati Rayudu",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 49,
+      "POW": 56,
+      "BWL": 0
+    },
+    {
+      "name": "Chris Jordan",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "England",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 41,
+      "BWL": 12
+    },
+    {
+      "name": "Narayan Jagadeesan",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 43,
+      "POW": 41,
+      "BWL": 0
+    },
+    {
+      "name": "Prashant Solanki",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 12
+    },
+    {
+      "name": "Matheesha Pathirana",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Sri Lanka",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 12
+    },
+    {
+      "name": "Tushar Deshpande",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 10
+    },
+    {
+      "name": "Adam Milne",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 8
+    }
+  ],
+  "2023": [
+    {
+      "name": "Ravindra Jadeja",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 47,
+      "POW": 78,
+      "BWL": 75
+    },
+    {
+      "name": "Moeen Ali",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "England",
+      "isKeeper": false,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 40,
+      "POW": 66,
+      "BWL": 71
+    },
+    {
+      "name": "Shivam Dube",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        5,
+        6,
+        7
+      ],
+      "BAT": 64,
+      "POW": 98,
+      "BWL": 0
+    },
+    {
+      "name": "Devon Conway",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": true,
+      "slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "BAT": 82,
+      "POW": 79,
+      "BWL": 0
+    },
+    {
+      "name": "Ruturaj Gaikwad",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 70,
+      "POW": 88,
+      "BWL": 0
+    },
+    {
+      "name": "Ajinkya Rahane",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 57,
+      "POW": 98,
+      "BWL": 0
+    },
+    {
+      "name": "Mitchell Santner",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 35,
+      "POW": 39,
+      "BWL": 58
+    },
+    {
+      "name": "Deepak Chahar",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 39,
+      "BWL": 58
+    },
+    {
+      "name": "MS Dhoni",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 44,
+      "POW": 83,
+      "BWL": 0
+    },
+    {
+      "name": "Matheesha Pathirana",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Sri Lanka",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 74
+    },
+    {
+      "name": "Ambati Rayudu",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 38,
+      "POW": 74,
+      "BWL": 0
+    },
+    {
+      "name": "Maheesh Theekshana",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Sri Lanka",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 47
+    },
+    {
+      "name": "Rajvardhan Hangargekar",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 46
+    },
+    {
+      "name": "Tushar Deshpande",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 24,
+      "POW": 15,
+      "BWL": 46
+    },
+    {
+      "name": "Ben Stokes",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "England",
+      "isKeeper": false,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 35,
+      "POW": 40,
+      "BWL": 8
+    },
+    {
+      "name": "Akash Singh",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 32
+    },
+    {
+      "name": "Sisanda Magala",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 10
+    },
+    {
+      "name": "Dwaine Pretorius",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 8
+    }
+  ],
+  "2024": [
+    {
+      "name": "Ravindra Jadeja",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 71,
+      "POW": 78,
+      "BWL": 34
+    },
+    {
+      "name": "Shivam Dube",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        5,
+        6,
+        7
+      ],
+      "BAT": 62,
+      "POW": 98,
+      "BWL": 10
+    },
+    {
+      "name": "MS Dhoni",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 70,
+      "POW": 98,
+      "BWL": 0
+    },
+    {
+      "name": "Ruturaj Gaikwad",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 83,
+      "POW": 79,
+      "BWL": 0
+    },
+    {
+      "name": "Rachin Ravindra",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 46,
+      "POW": 98,
+      "BWL": 8
+    },
+    {
+      "name": "Daryl Mitchell",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 53,
+      "POW": 77,
+      "BWL": 10
+    },
+    {
+      "name": "Moeen Ali",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "England",
+      "isKeeper": false,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 49,
+      "POW": 63,
+      "BWL": 12
+    },
+    {
+      "name": "Matheesha Pathirana",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Sri Lanka",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 80
+    },
+    {
+      "name": "Shardul Thakur",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 36,
+      "POW": 42,
+      "BWL": 23
+    },
+    {
+      "name": "Ajinkya Rahane",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 43,
+      "POW": 57,
+      "BWL": 0
+    },
+    {
+      "name": "Tushar Deshpande",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 24,
+      "POW": 15,
+      "BWL": 59
+    },
+    {
+      "name": "Mustafizur Rahman",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Bangladesh",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 54
+    },
+    {
+      "name": "Richard Gleeson",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "England",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 40,
+      "BWL": 10
+    },
+    {
+      "name": "Mitchell Santner",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 34,
+      "POW": 38,
+      "BWL": 12
+    },
+    {
+      "name": "Simarjeet Singh",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 43
+    },
+    {
+      "name": "Sameer Rizvi",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 36,
+      "POW": 43,
+      "BWL": 0
+    },
+    {
+      "name": "Deepak Chahar",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 37
+    },
+    {
+      "name": "Maheesh Theekshana",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Sri Lanka",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 12
+    },
+    {
+      "name": "Mukesh Choudhary",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 8
+    }
+  ],
+  "2025": [
+    {
+      "name": "Ravindra Jadeja",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 58,
+      "POW": 68,
+      "BWL": 47
+    },
+    {
+      "name": "Dewald Brevis",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 63,
+      "POW": 98,
+      "BWL": 0
+    },
+    {
+      "name": "Ayush Mhatre",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 59,
+      "POW": 98,
+      "BWL": 0
+    },
+    {
+      "name": "Anshul Kamboj",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 36,
+      "POW": 38,
+      "BWL": 67
+    },
+    {
+      "name": "Noor Ahmad",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Afghanistan",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 27,
+      "BWL": 76
+    },
+    {
+      "name": "Shivam Dube",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        5,
+        6,
+        7
+      ],
+      "BAT": 57,
+      "POW": 65,
+      "BWL": 8
+    },
+    {
+      "name": "Vijay Shankar",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 63,
+      "POW": 60,
+      "BWL": 0
+    },
+    {
+      "name": "Ruturaj Gaikwad",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 46,
+      "POW": 75,
+      "BWL": 0
+    },
+    {
+      "name": "Khaleel Ahmed",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 39,
+      "BWL": 45
+    },
+    {
+      "name": "Sam Curran",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "England",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 45,
+      "POW": 63,
+      "BWL": 10
+    },
+    {
+      "name": "MS Dhoni",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "BAT": 48,
+      "POW": 68,
+      "BWL": 0
+    },
+    {
+      "name": "Devon Conway",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": true,
+      "slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "BAT": 50,
+      "POW": 64,
+      "BWL": 0
+    },
+    {
+      "name": "Rachin Ravindra",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 51,
+      "POW": 61,
+      "BWL": 0
+    },
+    {
+      "name": "Ravichandran Ashwin",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 39,
+      "BWL": 34
+    },
+    {
+      "name": "Urvil Patel",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "BAT": 38,
+      "POW": 59,
+      "BWL": 0
+    },
+    {
+      "name": "Jamie Overton",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "England",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 36,
+      "POW": 44,
+      "BWL": 8
+    },
+    {
+      "name": "Shaik Rasheed",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 37,
+      "POW": 43,
+      "BWL": 0
+    },
+    {
+      "name": "Matheesha Pathirana",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Sri Lanka",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 32
+    },
+    {
+      "name": "Rahul Tripathi",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 35,
+      "POW": 34,
+      "BWL": 0
+    },
+    {
+      "name": "Deepak Hooda",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 33,
+      "POW": 27,
+      "BWL": 8
+    },
+    {
+      "name": "Nathan Ellis",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 10
+    },
+    {
+      "name": "Mukesh Choudhary",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 10
+    }
+  ],
+  "2026": [
+    {
+      "name": "Jamie Overton",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "England",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 49,
+      "POW": 87,
+      "BWL": 64
+    },
+    {
+      "name": "Shivam Dube",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        5,
+        6,
+        7
+      ],
+      "BAT": 64,
+      "POW": 98,
+      "BWL": 10
+    },
+    {
+      "name": "Sanju Samson",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "BAT": 71,
+      "POW": 98,
+      "BWL": 0
+    },
+    {
+      "name": "Ayush Mhatre",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 59,
+      "POW": 98,
+      "BWL": 0
+    },
+    {
+      "name": "Anshul Kamboj",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 56,
+      "POW": 54,
+      "BWL": 43
+    },
+    {
+      "name": "Sarfaraz Khan",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 46,
+      "POW": 98,
+      "BWL": 0
+    },
+    {
+      "name": "Urvil Patel",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": true,
+      "slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "BAT": 40,
+      "POW": 98,
+      "BWL": 0
+    },
+    {
+      "name": "Akeal Hosein",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "West Indies",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 41,
+      "BWL": 62
+    },
+    {
+      "name": "Kartik Sharma",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 58,
+      "POW": 70,
+      "BWL": 0
+    },
+    {
+      "name": "Prashant Veer",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 60,
+      "POW": 57,
+      "BWL": 8
+    },
+    {
+      "name": "Mukesh Choudhary",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 40,
+      "BWL": 45
+    },
+    {
+      "name": "Ruturaj Gaikwad",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 52,
+      "POW": 57,
+      "BWL": 0
+    },
+    {
+      "name": "Noor Ahmad",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Afghanistan",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 34,
+      "POW": 25,
+      "BWL": 47
+    },
+    {
+      "name": "Dewald Brevis",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "South Africa",
+      "isKeeper": false,
+      "slots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "BAT": 42,
+      "POW": 61,
+      "BWL": 0
+    },
+    {
+      "name": "Matthew Short",
+      "role": "Batsman",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        1,
+        2,
+        3
+      ],
+      "BAT": 38,
+      "POW": 44,
+      "BWL": 8
+    },
+    {
+      "name": "Matt Henry",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "New Zealand",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 35,
+      "POW": 38,
+      "BWL": 12
+    },
+    {
+      "name": "Gurjapneet Singh",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 25
+    },
+    {
+      "name": "Khaleel Ahmed",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 12
+    },
+    {
+      "name": "Spencer Johnson",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "Australia",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 24,
+      "POW": 15,
+      "BWL": 12
+    },
+    {
+      "name": "Ramakrishna Ghosh",
+      "role": "All-rounder",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        6,
+        7,
+        8
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 10
+    },
+    {
+      "name": "Rahul Chahar",
+      "role": "Bowler",
+      "battingStyle": "-",
+      "bowlingStyle": "-",
+      "country": "India",
+      "isKeeper": false,
+      "slots": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "BAT": 20,
+      "POW": 20,
+      "BWL": 8
+    }
+  ]
+}

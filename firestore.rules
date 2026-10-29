@@ -1,0 +1,242 @@
+rules_version = '2';
+
+// Firestore rules for 300 Par Arena (private beta). Publish in the Firebase console -> Firestore ->
+// Rules, or `npx firebase-tools deploy --only firestore:rules`. These are the ONLY real defence: the
+// Firebase web config is public, so anyone can sign up and call Firestore directly. So:
+//   - everything except username lookups needs an APPROVED account (members/{uid}, written only by
+//     the server when an admin approves someone - see lib/server/access.js),
+//   - duel rooms / picks / results keep the original 1v1 protections (only the two players, fixed
+//     state steps, right turn by the right player, results only for real rooms),
+//   - tournaments, fixtures and invites are READ-ONLY from browsers: every change goes through
+//     /api/tournaments (firebase-admin, which bypasses these rules) inside a transaction.
+//
+// KNOWN LIMIT: duel/solo results are still computed in the players' browsers, so a determined
+// cheater can submit a believable result. Closing that needs the simulation to run on the server.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() { return request.auth != null; }
+    // Approved for the private beta (doc created by the server only).
+    function member() { return signedIn() && exists(/databases/$(database)/documents/members/$(request.auth.uid)); }
+    function isString(v, max) { return v is string && v.size() > 0 && v.size() <= max; }
+    function teamOk(v) { return v in ['SRH', 'RCB', 'CSK', 'MI']; }
+    function groundOk(v) { return v == null || v in ['hyderabad', 'mumbai', 'chennai', 'bengaluru']; }
+    function roomPath(id) { return /databases/$(database)/documents/duelRooms/$(id); }
+
+    // ---------- users: public profile (username, display name, photo) ----------
+    match /users/{uid} {
+      allow get: if member();
+      // Directory lookups are small (search <= 10, name batches <= 30): never dump the whole list.
+      allow list: if member() && request.query.limit <= 30;
+      allow create, update: if member() && request.auth.uid == uid
+        && request.resource.data.keys().hasOnly(['username', 'usernameLower', 'displayName', 'displayNameLower', 'photoURL', 'createdAt'])
+        && isString(request.resource.data.username, 30)
+        && request.resource.data.usernameLower == request.resource.data.username.lower()
+        && isString(request.resource.data.displayName, 40)
+        && (!('photoURL' in request.resource.data) || request.resource.data.photoURL == null
+            || (isString(request.resource.data.photoURL, 400) && request.resource.data.photoURL.matches('^https://.*')))
+        // The username on the profile must be one this user has actually reserved (set together).
+        && getAfter(/databases/$(database)/documents/usernames/$(request.resource.data.usernameLower)).data.uid == uid;
+    }
+
+    // ---------- usernames: doc id = lower-cased username ----------
+    match /usernames/{name} {
+      // Single lookups are public so sign-up can check availability before an account exists.
+      allow get: if true;
+      allow list: if false;
+      allow create, update: if member()
+        && request.resource.data.keys().hasOnly(['uid', 'username'])
+        && request.resource.data.uid == request.auth.uid
+        && isString(request.resource.data.username, 30)
+        && name == request.resource.data.username.lower()
+        && (resource == null || resource.data.uid == request.auth.uid)
+        // One name per person: the profile written in the same step must carry this exact name.
+        && getAfter(/databases/$(database)/documents/users/$(request.auth.uid)).data.usernameLower == name;
+      allow delete: if member() && resource.data.uid == request.auth.uid;
+    }
+
+    // ---------- 1v1 duel rooms ----------
+    match /duelRooms/{roomId} {
+      function inRoom(d) { return request.auth.uid in [d.hostUid, d.guestUid, d.opponentUid]; }
+      function oldD() { return resource.data; }
+      function newD() { return request.resource.data; }
+      function changed() { return request.resource.data.diff(resource.data).affectedKeys(); }
+      // Whose turn the pick numbered `i` is: the first picker takes even turns, the other player odd.
+      function pickerFor(d, i) {
+        return i % 2 == 0 ? d.firstPickerUid : (d.firstPickerUid == d.hostUid ? d.guestUid : d.hostUid);
+      }
+
+      // Only the two players (and the invited opponent) can read a room - a third person cannot
+      // watch, listen to or list duels. (resource == null: a missing room reads as "not found".)
+      allow get: if member() && (resource == null || inRoom(resource.data));
+      allow list: if false;
+
+      allow create: if member()
+        && newD().keys().hasOnly(['hostUid', 'hostName', 'hostTeam', 'guestUid', 'guestName', 'guestTeam',
+            'opponentUid', 'opponentName', 'ground', 'status', 'createdAt', 'expiresAt', 'deleteAt',
+            'tossWinnerUid', 'firstPickerUid', 'currentTurnIndex', 'resultHost', 'resultGuest', 'winnerUid', 'completedAt'])
+        && newD().hostUid == request.auth.uid
+        && isString(newD().hostName, 40) && teamOk(newD().hostTeam)
+        && newD().guestUid == null && newD().guestName == null && newD().guestTeam == null
+        && newD().opponentUid is string && newD().opponentUid != newD().hostUid
+        && exists(/databases/$(database)/documents/users/$(newD().opponentUid))
+        && (newD().opponentName == null || isString(newD().opponentName, 40))
+        && groundOk(newD().ground)
+        && newD().status == 'waiting' && newD().currentTurnIndex == 0
+        && newD().tossWinnerUid == null && newD().firstPickerUid == null
+        && newD().resultHost == null && newD().resultGuest == null && newD().winnerUid == null
+        && newD().createdAt == request.time
+        && newD().expiresAt <= request.time + duration.value(10, 'm');
+
+      // A room only ever moves through these steps, and each step may only touch its own fields:
+      allow update: if member() && (
+        // 1. the INVITED opponent joins (and the toss is recorded) while the invite is open
+        (oldD().status == 'waiting' && newD().status == 'toss'
+          && request.auth.uid == oldD().opponentUid && oldD().guestUid == null
+          && request.time < oldD().expiresAt
+          && changed().hasOnly(['guestUid', 'guestName', 'guestTeam', 'status', 'tossWinnerUid'])
+          && newD().guestUid == request.auth.uid && isString(newD().guestName, 40) && teamOk(newD().guestTeam)
+          && newD().tossWinnerUid in [oldD().hostUid, request.auth.uid])
+        // 2. the host closes an invite nobody has joined
+        || (oldD().status == 'waiting' && newD().status == 'closed'
+          && request.auth.uid == oldD().hostUid
+          && changed().hasOnly(['status', 'deleteAt']))
+        // 3. the toss winner decides who picks (and bats) first
+        || (oldD().status == 'toss' && newD().status == 'drafting'
+          && request.auth.uid == oldD().tossWinnerUid
+          && changed().hasOnly(['status', 'firstPickerUid', 'currentTurnIndex'])
+          && newD().firstPickerUid in [oldD().hostUid, oldD().guestUid] && newD().currentTurnIndex == 0)
+        // 4. the player whose turn it is makes the next pick (the pick doc is written in the same step)
+        || (oldD().status == 'drafting'
+          && request.auth.uid == pickerFor(oldD(), oldD().currentTurnIndex)
+          && changed().hasOnly(['currentTurnIndex', 'status'])
+          && newD().currentTurnIndex == oldD().currentTurnIndex + 1
+          && newD().status == (newD().currentTurnIndex >= 22 ? 'simulating' : 'drafting')
+          && existsAfter(/databases/$(database)/documents/duelRooms/$(roomId)/picks/$(string(oldD().currentTurnIndex))))
+        // 5. a player saves the finished duel (its permanent record is created in the same step)
+        || (oldD().status == 'simulating' && newD().status == 'complete'
+          && request.auth.uid in [oldD().hostUid, oldD().guestUid]
+          && changed().hasOnly(['resultHost', 'resultGuest', 'winnerUid', 'status', 'completedAt', 'seenBy', 'deleteAt'])
+          && newD().winnerUid in [oldD().hostUid, oldD().guestUid]
+          && existsAfter(/databases/$(database)/documents/duelResults/$(roomId)))
+        // 6. a player checks in as having seen the result
+        || (oldD().status == 'complete'
+          && request.auth.uid in [oldD().hostUid, oldD().guestUid]
+          && changed().hasOnly(['seenBy'])
+          && request.auth.uid in newD().seenBy
+          && newD().seenBy.hasOnly([oldD().hostUid, oldD().guestUid]))
+      );
+
+      // Cleanup after the duel (both players have seen the result) or a closed invite.
+      allow delete: if member() && inRoom(resource.data) && resource.data.status in ['complete', 'closed'];
+
+      match /picks/{turn} {
+        function room() { return get(roomPath(roomId)).data; }
+
+        allow get, list: if member() && request.auth.uid in [room().hostUid, room().guestUid];
+        allow create: if member()
+          && request.resource.data.keys().hasOnly(['uid', 'turnIndex', 'year', 'playerName', 'slot', 'pickedAt', 'deleteAt'])
+          && request.resource.data.uid == request.auth.uid
+          && room().status == 'drafting'
+          // exactly the current turn, in order, by the player whose turn it is
+          && request.resource.data.turnIndex == room().currentTurnIndex
+          && turn == string(room().currentTurnIndex)
+          && request.auth.uid == (room().currentTurnIndex % 2 == 0 ? room().firstPickerUid
+                : (room().firstPickerUid == room().hostUid ? room().guestUid : room().hostUid))
+          && request.resource.data.year is int && request.resource.data.year >= 2008 && request.resource.data.year <= 2026
+          && request.resource.data.slot is int && request.resource.data.slot >= 1 && request.resource.data.slot <= 11
+          && isString(request.resource.data.playerName, 60);
+        // The 22 picks are deleted by a player in the same step that saves the finished duel.
+        allow delete: if member() && request.auth.uid in [room().hostUid, room().guestUid]
+          && room().status == 'simulating';
+      }
+    }
+
+    // ---------- finished duels (dashboard history) ----------
+    match /duelResults/{id} {
+      // winnerUid == you lets the dashboard count your wins without downloading the games.
+      allow read: if member() && (request.auth.uid in resource.data.participants || resource.data.winnerUid == request.auth.uid);
+      // Only created together with the real room being finished (id = room id): same two players,
+      // from a room that really reached "simulating" - so nobody can write a result for a game that
+      // never happened, or put a made-up record into someone else's history.
+      allow create: if member()
+        && request.resource.data.keys().hasOnly(['participants', 'hostUid', 'guestUid', 'hostScore', 'guestScore',
+            'hostWickets', 'guestWickets', 'hostBalls', 'guestBalls', 'hostName', 'guestName', 'battedFirstUid',
+            'winnerUid', 'hostTeam', 'guestTeam', 'ground', 'roomId', 'completedAt'])
+        && get(roomPath(id)).data.status == 'simulating'
+        && request.resource.data.hostUid == get(roomPath(id)).data.hostUid
+        && request.resource.data.guestUid == get(roomPath(id)).data.guestUid
+        && request.resource.data.participants == [request.resource.data.hostUid, request.resource.data.guestUid]
+        && request.auth.uid in request.resource.data.participants
+        && request.resource.data.winnerUid in request.resource.data.participants
+        && request.resource.data.roomId == id
+        && request.resource.data.hostScore is number && request.resource.data.hostScore >= -50 && request.resource.data.hostScore <= 800
+        && request.resource.data.guestScore is number && request.resource.data.guestScore >= -50 && request.resource.data.guestScore <= 800
+        && groundOk(request.resource.data.get('ground', null))
+        && request.resource.data.completedAt == request.time;
+    }
+
+    // ---------- 300 Par leaderboard ----------
+    // Public to read (at most one page per query). A player can only write their OWN row; every field
+    // is shaped and bounded; the count of 300s goes up by exactly one per write, and writes to the
+    // same row must be at least 40 seconds apart (a real game takes longer than that).
+    function lbShape(uid) {
+      return request.resource.data.keys().hasOnly(['uid', 'name', 'team', 'bestScore', 'bestWickets', 'bestBalls', 'count300', 'updatedAt'])
+        && request.resource.data.uid == uid
+        && isString(request.resource.data.name, 40)
+        && teamOk(request.resource.data.team)
+        && request.resource.data.bestScore is int && request.resource.data.bestScore >= 300 && request.resource.data.bestScore <= 500
+        && request.resource.data.bestWickets is int && request.resource.data.bestWickets >= 0 && request.resource.data.bestWickets <= 10
+        && request.resource.data.bestBalls is int && request.resource.data.bestBalls >= 1 && request.resource.data.bestBalls <= 120
+        && request.resource.data.updatedAt == request.time;
+    }
+    function lbUpdateOk() {
+      return request.resource.data.count300 == resource.data.count300 + 1
+        && request.resource.data.bestScore >= resource.data.bestScore
+        && request.time > resource.data.updatedAt + duration.value(40, 's');
+    }
+
+    match /leaderboard/{difficulty}/entries/{uid} {
+      allow get: if member();
+      allow list: if member() && request.query.limit <= 21;
+      allow create: if member() && request.auth.uid == uid && difficulty in ['hard', 'easy']
+        && lbShape(uid) && request.resource.data.count300 == 1;
+      allow update: if member() && request.auth.uid == uid && difficulty in ['hard', 'easy']
+        && lbShape(uid) && lbUpdateOk();
+    }
+    match /leaderboardDaily/{key}/entries/{uid} {
+      allow get: if member();
+      allow list: if member() && request.query.limit <= 21;
+      allow create: if member() && request.auth.uid == uid && key.matches('^20[0-9]{2}-[0-9]{2}-[0-9]{2}_(hard|easy)$')
+        && lbShape(uid) && request.resource.data.count300 == 1;
+      allow update: if member() && request.auth.uid == uid && key.matches('^20[0-9]{2}-[0-9]{2}-[0-9]{2}_(hard|easy)$')
+        && lbShape(uid) && lbUpdateOk();
+    }
+
+    // ---------- private beta access (server-written only) ----------
+    match /members/{uid} {
+      allow get: if signedIn() && request.auth.uid == uid; // "am I approved / admin?"
+      allow list, write: if false;
+    }
+    match /allowlist/{email} { allow read, write: if false; }
+    match /waitlist/{email} { allow read, write: if false; }
+
+    // ---------- tournaments (read-only here; written by /api/tournaments) ----------
+    match /tournaments/{tid} {
+      // accessUids = host + everyone ever invited. Listing must filter on array-contains your uid.
+      allow get, list: if member() && request.auth.uid in resource.data.accessUids;
+      allow write: if false;
+
+      match /fixtures/{fid} {
+        allow get, list: if member()
+          && request.auth.uid in get(/databases/$(database)/documents/tournaments/$(tid)).data.accessUids;
+        allow write: if false;
+      }
+    }
+    match /tournamentInvites/{id} {
+      // "my invites": query must filter uid == your uid.
+      allow get, list: if member() && resource.data.uid == request.auth.uid;
+      allow write: if false;
+    }
+  }
+}
